@@ -119,7 +119,7 @@ describe("total()", function() {
   });
 });
 
-("removeFromCart()", function() {
+describe("removeFromCart()", function() {
   it("removes the specified item from the cart", function() {
     addToCart("vanilla");
     addToCart("watermelon");
